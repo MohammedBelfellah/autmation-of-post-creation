@@ -1,21 +1,28 @@
 {
   "name": "instagram-post-generator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An API to generate images based on parameters and return the URL.",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "express",
+    "puppeteer",
+    "image-generation",
+    "api"
+  ],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.7",
-    "dotenv": "^16.4.5",
     "express": "^4.21.0",
-    "jimp": "^0.22.8",
-    "multer": "^1.4.5-lts.1",
     "puppeteer": "^23.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
